@@ -1,0 +1,30 @@
+{
+  "name": "next-auth-typescript-example",
+  "version": "0.0.0",
+  "private": true,
+  "main": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "types": "tsc --noEmit"
+  },
+  "license": "ISC",
+  "prettier": {
+    "semi": false
+  },
+  "dependencies": {
+    "@polkadot/extension-dapp": "^0.44.6",
+    "@subsocial/api": "^0.7.7",
+    "@subsocial/utils": "^0.7.7",
+    "@types/node": "^15.12.4",
+    "@types/react": "^17.0.50",
+    "@types/react-dom": "^17.0.8",
+    "next": "^12.3.1",
+    "next-auth": "^4.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "twit": "^2.2.11",
+    "typescript": "^4.3.4"
+  }
+}
